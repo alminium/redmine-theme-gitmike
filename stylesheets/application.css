@@ -194,7 +194,12 @@ div.filters h2 .scope_title a { color: #222; text-decoration: none; }
 .wiki h1 { font-size: 28px; }
 h2, .wiki h1 { color: #222; }
 h3, .wiki h2 { color: #222; }
-
+.wiki ul {
+	-webkit-padding-start: 15px;
+}
+.wiki li {
+	margin-left: 1em;
+}
 
 div#content > div.wiki {
 	padding: 10px;
