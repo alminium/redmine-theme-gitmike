@@ -222,15 +222,36 @@ div#content > div.wiki {
 	display: block;
 	float: left;
 	padding: 6px 12px;
-	color: #444;
+	color: #777;
 	text-shadow: 0 1px 0 #fff;
 	font-weight: bold;
 	text-decoration: none;
+/*
 	border-radius: 6px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
+*/
 }
 
+#main-menu li a:hover,
+#main-menu li a.selected:hover {
+
+	color: #4183C4;
+        text-decoration: none;
+	background-color: transparent !important;
+	background: #FAFBFD;
+	background: -moz-linear-gradient(#fafbfd,#DCE6EF);
+	background: -webkit-linear-gradient(#FAFBFD,#DCE6EF);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafbfd',endColorstr='#dce6ef')";
+
+
+}
+#main-menu li a.selected {
+	border-bottom:2px  #D26911 solid;
+	color: black;
+}
+
+/*
 #main-menu li a.selected, #main-menu li a.selected:hover {
 	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.10);
@@ -240,9 +261,9 @@ div#content > div.wiki {
 	color: #F0F0F0;
 	border: none;
 }
+*/
 
-
-#main-menu li a:hover {background-color:transparent;color: #000;text-decoration: initial;}
+/*#main-menu li a:hover {background-color:transparent;color: #000;text-decoration: initial;}*/
 
 #header {
 	padding-top: 10px;
@@ -309,8 +330,8 @@ h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {border-bottom: 0px;}
 
 /* Menu */
 #main-menu li a { background-color: #507AAA; font-weight: bold;}
-#main-menu li a:hover { background: #507AAA; text-decoration: underline; }
-#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #D26911 !important; }
+/*#main-menu li a:hover { background: #507AAA; text-decoration: underline; }*/
+/*#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #D26911 !important; }*/
 #main-menu ul { margin-top: 7px; padding-left: 15px;}
 
 /* Tables */
