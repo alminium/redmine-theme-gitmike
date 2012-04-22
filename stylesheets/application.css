@@ -22,9 +22,9 @@ html, body, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, div, p, blockquote, 
 }
 
 #header > h1 {
-	background: url(../images/logo.png) no-repeat 10px 7px;
-	padding: 5px 50px;
-	color: #393939;
+	background: url(../images/clover-small.png) no-repeat 10px 7px;
+	padding: 5px 45px;
+	color: #4183C4;
 }
 #main { background: transparent; margin: 15px 15px 0px 15px; }
 #main { background-color:#fff; }
