@@ -206,23 +206,42 @@ div#content > div.wiki {
 	padding-top: 20px;
 }
 
+/* Menu */
 #main-menu {
 	left: 0px;
 	width: 100%;
-	height: 40px;
-/*	overflow: hidden;*/
+	/* TODO: height should scale automatically. */
+	height: 70px;
+	margin-right: 0;
+	position: relative;
+}
+
+#main-menu ul { 
+	margin-top: 7px;
+	padding-left: 15px;
+	height: auto;
+	position: relative;
+}
+
+
+#main-menu li {
 	background: #FAFAFA;
 	background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
 	background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
 	border: 1px solid #EAEAEA;
 	border-bottom-color: #CACACA;
-	border-radius: 3px;
-	margin-right: 0;
+	margin: 0px 0px 0px 0px;
 	position: relative;
 }
 
 #main-menu li a {
+	border-right: 1px solid #EEE;
+	border-right-color: rgba(0, 0, 0, 0.04);
+	border-left: 1px solid #FCFCFC;
+	border-left-color: rgba(255, 255, 255, 0.7);
+	line-height: 28px; 
+	border-bottom: 2px solid #DADADA;
 	background-color: transparent !important;
 	display: block;
 	float: left;
@@ -231,11 +250,6 @@ div#content > div.wiki {
 	text-shadow: 0 1px 0 #fff;
 	font-weight: bold;
 	text-decoration: none;
-/*
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-*/
 }
 
 #main-menu li a:hover,
@@ -255,20 +269,6 @@ div#content > div.wiki {
 	border-bottom:2px  #D26911 solid;
 	color: black;
 }
-
-/*
-#main-menu li a.selected, #main-menu li a.selected:hover {
-	box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.10);
-	-moz-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.10);
-	-webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.10);
-	padding: 5px 12px;
-	text-shadow: 0px -1px #666;
-	color: #F0F0F0;
-	border: none;
-}
-*/
-
-/*#main-menu li a:hover {background-color:transparent;color: #000;text-decoration: initial;}*/
 
 #header {
 	padding-top: 10px;
@@ -332,12 +332,6 @@ div.contact.details, div.deal.details {
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {border-bottom: 0px;}
 .wiki.wiki-page h1 { border-bottom: 1px solid #ccc; }
 .wiki.wiki-page > h2 { border-bottom: 1px solid #ccc;	padding-bottom: 6px;}
-
-/* Menu */
-#main-menu li a { background-color: #507AAA; font-weight: bold;}
-/*#main-menu li a:hover { background: #507AAA; text-decoration: underline; }*/
-/*#main-menu li a.selected, #main-menu li a.selected:hover { background-color: #D26911 !important; }*/
-#main-menu ul { margin-top: 7px; padding-left: 15px;}
 
 /* Tables */
 
