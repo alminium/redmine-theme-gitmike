@@ -346,7 +346,13 @@ table.list thead th {
 }
 
 .tabular label {
-	padding-top:4px;
+	padding-top: 4px;
+        width: 10em;
+        margin-left: -12em;
+}
+
+.tabular p {
+        padding-left: 12em;
 }
 
 /*Quick search*/
